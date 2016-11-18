@@ -11,8 +11,8 @@ public class subtract implements calculate {
     @Override
     public int calculateValue(int value1,int value2) {
 
-        this.value1=value1;
-        this.value2=value2;
+     //   this.value1=value1;
+      //  this.value2=value2;
 
         result=value1-value2;
         return result;
