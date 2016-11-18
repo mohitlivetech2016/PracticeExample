@@ -96,7 +96,7 @@ public class MainActivityOfFactoryMethod extends AppCompatActivity implements Vi
             //call draw method of circle
             result= shape4.calculateValue(mvalue1, mvalue2);
             Toast.makeText(getApplicationContext(), "Your Answer " +result,  Toast.LENGTH_SHORT).show();
-
+            Toast.makeText(getApplicationContext(), "Your Answer " +result,  Toast.LENGTH_SHORT).show();
         }
 
 
