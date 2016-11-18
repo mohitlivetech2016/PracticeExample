@@ -3,4 +3,5 @@
     <string name="title_activity_intent_main">IntentMain</string>
     <string name="title_activity_intent_second">IntentSecondActivity</string>
     <string name="title_activity_main_of_factory_method">MainActivityOfFactoryMethod</string>
+    <string name="title_activity_mvcmain_file">MVCMainFile</string>
 </resources>

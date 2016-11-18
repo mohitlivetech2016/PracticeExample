@@ -71,8 +71,8 @@ public class MainActivityOfFactoryMethod extends AppCompatActivity implements Vi
             calculate shape2 = shapeFactory.getValue("Subtract");
 
             //call draw method of Rectangle
-            result1= shape2.calculateValue(mvalue1, mvalue2);
-            Toast.makeText(MainActivityOfFactoryMethod.this,result1, Toast.LENGTH_SHORT).show();
+          //  result1= shape2.calculateValue(mvalue1, mvalue2);
+          //  Toast.makeText(MainActivityOfFactoryMethod.this,result1, Toast.LENGTH_SHORT).show();
 
         }
         else if(v.getId()==R.id.id_Btn_Divide)
