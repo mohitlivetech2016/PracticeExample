@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PracticeExample</string>
+    <string name="title_activity_intent_main">IntentMain</string>
+    <string name="title_activity_intent_second">IntentSecondActivity</string>
+</resources>
