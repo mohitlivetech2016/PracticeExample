@@ -15,7 +15,7 @@ import com.example.mohit.practiceexample.R;
 public class IntentMain extends AppCompatActivity {
 
     Button mBtn_CallImplicitIntent,mBtn_CallExplicitIntent;
-
+    static private final String URL = "http://www.google.com";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +30,7 @@ public class IntentMain extends AppCompatActivity {
 
                // String url="www.google.com";
 
-                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("www.google.com"));
+                Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse(URL));
                 startActivity(intent);
             }
         });

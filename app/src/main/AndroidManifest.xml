@@ -8,32 +8,34 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
 
-        </activity>
-
-
-        <!--Main activity for intent-->
+        <!-- Main activity for intent -->
         <activity
             android:name=".intents.IntentMain"
-
-
             android:label="@string/title_activity_intent_main"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:theme="@style/AppTheme.NoActionBar">
 
+        </activity>
+        <activity
+            android:name=".intents.IntentSecondActivity"
+            android:label="@string/title_activity_intent_second"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- Main activity for Factory Methods -->
+
+        <activity
+            android:name=".factorymethod.MainActivityOfFactoryMethod"
+            android:label="@string/title_activity_main_of_factory_method"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+        </activity>
 
-
-            </activity>
-        <activity
-            android:name=".intents.IntentSecondActivity"
-            android:label="@string/title_activity_intent_second"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
