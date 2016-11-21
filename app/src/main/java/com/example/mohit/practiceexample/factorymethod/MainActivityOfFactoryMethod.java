@@ -52,7 +52,7 @@ public class MainActivityOfFactoryMethod extends AppCompatActivity implements Vi
         value2 = Integer.parseInt(lvalue1);
 
 
-        Objects shapeFactory = new Objects();
+        ObjectsCallingClass shapeFactory = new ObjectsCallingClass();
 
         if (v.getId()==R.id.id_Btn_Add)
         {
