@@ -19,7 +19,7 @@ public class MainActivityOfFactoryMethod extends AppCompatActivity implements Vi
     protected Button mBtnAdd, mBtnSub, mBtnDiv, mBtnMul;
     protected EditText mEtFirst, mEtSecond;
     protected TextView mTvShow;
-    int result1;
+
 
 
     @Override
@@ -63,7 +63,7 @@ public class MainActivityOfFactoryMethod extends AppCompatActivity implements Vi
 
             //call draw method of Circle
            result= shape1.calculateValue(mvalue1, mvalue2);
-           Toast.makeText(MainActivityOfFactoryMethod.this,result, Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Your Answer" +result,  Toast.LENGTH_SHORT).show();
         }
         else if(v.getId()==R.id.id_Btn_Subtract)
         {
@@ -71,28 +71,32 @@ public class MainActivityOfFactoryMethod extends AppCompatActivity implements Vi
             calculate shape2 = shapeFactory.getValue("Subtract");
 
             //call draw method of Rectangle
-            result1= shape2.calculateValue(mvalue1, mvalue2);
-            Toast.makeText(MainActivityOfFactoryMethod.this,result1, Toast.LENGTH_SHORT).show();
+            result= shape2.calculateValue(mvalue1, mvalue2);
+
+            Toast.makeText(getApplicationContext(), "Your Answer " +result,  Toast.LENGTH_SHORT).show();
+          //  Toast.makeText(MainActivityOfFactoryMethod.this,result1, Toast.LENGTH_SHORT).show();
 
         }
         else if(v.getId()==R.id.id_Btn_Divide)
         {
 
             //get an object of Square and call its draw method.
-            calculate shape3 = shapeFactory.getValue("Multiply");
+            calculate shape3 = shapeFactory.getValue("Divided");
 
             //call draw method of circle
             result= shape3.calculateValue(mvalue1, mvalue2);
+            Toast.makeText(getApplicationContext(), "Your Answer " +result,  Toast.LENGTH_SHORT).show();
         }
         else if(v.getId()==R.id.id_Btn_Multiply)
         {
 
             //get an object of Square and call its draw method.
-            calculate shape4 = shapeFactory.getValue("Divided");
+            calculate shape4 = shapeFactory.getValue("Multiply");
 
             //call draw method of circle
             result= shape4.calculateValue(mvalue1, mvalue2);
-
+            Toast.makeText(getApplicationContext(), "Your Answer " +result,  Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Your Answer " +result,  Toast.LENGTH_SHORT).show();
         }
 
 
