@@ -14,7 +14,7 @@
         <activity
             android:name=".intents.IntentMain"
             android:label="@string/title_activity_intent_main"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".intents.IntentSecondActivity"
             android:label="@string/title_activity_intent_second"
@@ -26,16 +26,20 @@
             android:name=".factorymethod.MainActivityOfFactoryMethod"
             android:label="@string/title_activity_main_of_factory_method"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <activity
+            android:name=".BroadcastReciver.BatteryIndicatorActivity"
+            android:label="@string/title_activity_battery_indicator"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
-        <activity
-            android:name=".mvc.MVCMainFile"
-            android:label="@string/title_activity_mvcmain_file"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
