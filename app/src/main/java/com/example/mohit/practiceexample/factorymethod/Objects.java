@@ -1,30 +1,30 @@
 package com.example.mohit.practiceexample.factorymethod;
 //package com.example.mohit.practiceexample.factorymethod.interfaces;
 
-import com.example.mohit.practiceexample.factorymethod.interfaces.calculate;
+import com.example.mohit.practiceexample.factorymethod.interfaces.Calculate;
 
 /**
  * Created by Android on 18-Nov-16.
  */
 
-public class ShapeFactoryMethod {
+public class Objects {
 
            //use getShape method to get object of type shape
-        public calculate getValue(String calculateType){
+        public Calculate getValue(String calculateType){
             if(calculateType == null){
                 return null;
             }
             if(calculateType.equalsIgnoreCase("ADD")){
-                return new add();
+                return new Add();
 
             } else if(calculateType.equalsIgnoreCase("Subtract")){
-                return new subtract();
+                return new Subtract();
 
             } else if(calculateType.equalsIgnoreCase("Multiply")){
-                return new multiply();
+                return new Multiply();
 
             } else if(calculateType.equalsIgnoreCase("Divided")){
-                return new divided();
+                return new Divided();
             }
 
             return null;

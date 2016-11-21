@@ -1,12 +1,12 @@
 package com.example.mohit.practiceexample.factorymethod;
 
-import com.example.mohit.practiceexample.factorymethod.interfaces.calculate;
+import com.example.mohit.practiceexample.factorymethod.interfaces.Calculate;
 
 /**
  * Created by Android on 18-Nov-16.
  */
 
-public class add implements calculate {
+public class Add implements Calculate {
 
     int value1,value2,result;
     @Override
