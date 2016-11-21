@@ -1,4 +1,4 @@
-package com.example.mohit.practiceexample.factorymethod;
+package com.example.mohit.practiceexample.factorymethod.ClaculateMethodsClasses;
 
 import com.example.mohit.practiceexample.factorymethod.interfaces.Calculate;
 
@@ -6,16 +6,16 @@ import com.example.mohit.practiceexample.factorymethod.interfaces.Calculate;
  * Created by Android on 18-Nov-16.
  */
 
-public class Divided implements Calculate {
-    int value1,value2,result=0;
+public class Add implements Calculate {
+
+    int value1,value2,result;
     @Override
     public int calculateValue(int value1,int value2) {
 
        // this.value1=value1;
        // this.value2=value2;
 
-        result=value1/value2;
-        return result;
-
+        result=value1+value2;
+        return result ;
     }
 }

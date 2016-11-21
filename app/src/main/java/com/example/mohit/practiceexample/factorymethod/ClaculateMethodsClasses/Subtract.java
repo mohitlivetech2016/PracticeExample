@@ -1,4 +1,4 @@
-package com.example.mohit.practiceexample.factorymethod;
+package com.example.mohit.practiceexample.factorymethod.ClaculateMethodsClasses;
 
 import com.example.mohit.practiceexample.factorymethod.interfaces.Calculate;
 
