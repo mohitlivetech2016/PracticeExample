@@ -29,4 +29,21 @@
 
         />
 
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter text to pass Data to other activity"
+        android:id="@+id/id_Et_PassValue"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        android:text="Click here to Pass Data"
+        android:id="@+id/id_Btn_SubmitData"
+        />
+
 </LinearLayout>
